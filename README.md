@@ -32,3 +32,5 @@ The tool works as a python script where you can write a baiprog file as a python
 3. Write all the AI blocks you need. **I recommend you to first export a baiprog file to see how the AI blocks should be written.**
 4. Add the following statement `AICreator.CreateBaiprog(<ExportName: string>, [Root AIs], DemoAIAction, Queries)`
 5. Run the script.
+
+Test
