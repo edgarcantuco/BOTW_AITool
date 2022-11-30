@@ -19,7 +19,7 @@ The tool works as a python script where you can write a baiprog file as a python
 	2. Open a cmd in the folder where you extracted the project and run the following command: `AICreator.py <Src> <Dst: optional>` this will save the python file with the name you give in Dst.
 3. Wait for the cmd to finish processing the baiprog file.
 
-** Be careful because this will overwrite any existing python files with the same name as you are extracting. **
+**Be careful because this will overwrite any existing python files with the same name as you are extracting.**
 
 ### 2. Writing the AI
 1. Open your .py file with your favorite IDE.
@@ -29,6 +29,6 @@ The tool works as a python script where you can write a baiprog file as a python
 	3. `from Classes.Behavior import *`
 	4. `from Classes.Query import *`
 	5. `import AICreator`
-3. Write all the AI blocks you need. ** I recommend you to first export a baiprog file to see how the AI blocks should be written. **
+3. Write all the AI blocks you need. **I recommend you to first export a baiprog file to see how the AI blocks should be written.**
 4. Add the following statement `AICreator.CreateBaiprog(<ExportName: string>, [Root AIs], DemoAIAction, Queries)`
 5. Run the script.
